@@ -20,7 +20,7 @@ except ImportError:
 
 colors=['\033[1;31m','\033[1;32m','\033[1;33m','\033[1;34m','\033[1;35m','\033[1;36m']
 W='\033[0m'
-# The Credit For This Code Goes To SpeedX And All Other Contributors Listed At https://github.com/TheSpeedX/TBomb
+# The Credit For This Code Goes To Sujal  And shristi jaan All Other Contributors Listed At https://github.com/mrsujal88/TBomb
 # If You Wanna Take Credits For This Code, Please Look Yourself Again
 
 country_codes = {
@@ -240,14 +240,19 @@ def banner():
     
     clr()
     logo="""                                                  
-   ████████ ██████                 ██             
-   ▒▒▒██▒▒▒ ██▒▒▒██                ██             
-      ██    ██   ██  ████  ██   ██ ██             
-      ██    ██████▒ ██▒▒██ ███ ███ █████          
-      ██    ██▒▒▒██ ██  ██ ██▒█▒██ ██▒▒██         
-      ██    ██   ██ ██  ██ ██ ▒ ██ ██  ██         
-      ██    ██████▒ ▒████▒ ██   ██ █████▒         
-      ▒▒    ▒▒▒▒▒▒   ▒▒▒▒  ▒▒   ▒▒ ▒▒▒▒▒          
+ █████████████████████████████████████████████████████████████████████████████████████████████████████
+█▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒██▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒███▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒
+█▒▒▄▄▄▄▄▄▄▄▄▄▒▒█▒▒▄▄▒▒██▒▒▄▄▒▒█▒▒▄▄▄▄▄▄▄▄▄▄▄▄▒▒███▒▒▄▄▄▄▄▄▒▒█▒▒▄▄▄▄▄▄▄▄▄▄▒▒█▒▒▄▄▄▄▄▄▄▄▄▄▒▒█▒▒▄▄▄▄▄▄▒▒
+█▒▒▄▄▒▒▒▒▒▒▒▒▒▒█▒▒▄▄▒▒██▒▒▄▄▒▒█▒▒▄▄▒▒▒▒▒▒▒▒▄▄▒▒███▒▒▒▒▄▄▒▒▒▒█▒▒▄▄▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▄▄▒▒▒▒▒▒█▒▒▒▒▄▄▒▒▒▒
+█▒▒▄▄▒▒█████████▒▒▄▄▒▒██▒▒▄▄▒▒█▒▒▄▄▒▒████▒▒▄▄▒▒█████▒▒▄▄▒▒███▒▒▄▄▒▒█████████████▒▒▄▄▒▒███████▒▒▄▄▒▒██
+█▒▒▄▄▒▒▒▒▒▒▒▒▒▒█▒▒▄▄▒▒▒▒▒▒▄▄▒▒█▒▒▄▄▒▒▒▒▒▒▒▒▄▄▒▒█████▒▒▄▄▒▒███▒▒▄▄▒▒▒▒▒▒▒▒▒▒█████▒▒▄▄▒▒███████▒▒▄▄▒▒██
+█▒▒▄▄▄▄▄▄▄▄▄▄▒▒█▒▒▄▄▄▄▄▄▄▄▄▄▒▒█▒▒▄▄▄▄▄▄▄▄▄▄▄▄▒▒█████▒▒▄▄▒▒███▒▒▄▄▄▄▄▄▄▄▄▄▒▒█████▒▒▄▄▒▒███████▒▒▄▄▒▒██
+█▒▒▒▒▒▒▒▒▒▒▄▄▒▒█▒▒▄▄▒▒▒▒▒▒▄▄▒▒█▒▒▄▄▒▒▒▒▒▒▄▄▒▒▒▒█████▒▒▄▄▒▒███▒▒▒▒▒▒▒▒▒▒▄▄▒▒█████▒▒▄▄▒▒███████▒▒▄▄▒▒██
+█████████▒▒▄▄▒▒█▒▒▄▄▒▒██▒▒▄▄▒▒█▒▒▄▄▒▒██▒▒▄▄▒▒███████▒▒▄▄▒▒███████████▒▒▄▄▒▒█████▒▒▄▄▒▒███████▒▒▄▄▒▒██
+█▒▒▒▒▒▒▒▒▒▒▄▄▒▒█▒▒▄▄▒▒██▒▒▄▄▒▒█▒▒▄▄▒▒██▒▒▄▄▒▒▒▒▒▒█▒▒▒▒▄▄▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▄▄▒▒█████▒▒▄▄▒▒█████▒▒▒▒▄▄▒▒▒▒
+█▒▒▄▄▄▄▄▄▄▄▄▄▒▒█▒▒▄▄▒▒██▒▒▄▄▒▒█▒▒▄▄▒▒██▒▒▄▄▄▄▄▄▒▒█▒▒▄▄▄▄▄▄▒▒█▒▒▄▄▄▄▄▄▄▄▄▄▒▒█████▒▒▄▄▒▒█████▒▒▄▄▄▄▄▄▒▒
+█▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒██▒▒▒▒▒▒█▒▒▒▒▒▒██▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒█████▒▒▒▒▒▒█████▒▒▒▒▒▒▒▒▒▒
+█████████████████████████████████████████████████████████████████████████████████████████████████████
                                          """
     print(random.choice(colors)+logo+W)
     print("\n")
@@ -290,7 +295,7 @@ def checkinternet():
         res = True
     if res:
         print("\n\n\tIt seems That Your Internet Speed is Slow or You Are Using Proxies...")
-        print('\t\tTBomb Will Stop Now...\n\n')
+        print('\t\tshristiBomb Will Stop Now...\n\n')
         banner()
         exit()
 
@@ -727,7 +732,7 @@ def start(target, counter, delay, ch, cc):
                 else:
                     print('\n\n\tSorry Your Country is Not Supported...')
                     print(
-                        '\t\tPlease Send A Mail To ggspeedx29@gmail.com To Let Us Know...')
+                        '\t\tPlease Send A Mail To iloveyoushristi@gmail.com To Let Us Know...')
                     input('Press Enter To Exit...')
                     exit()
         print(random.choice(colors))
@@ -836,12 +841,12 @@ try:
 except Exception:
     type = 0
 if type == 1:
-    nm = int(input("Enter Number of Calls To Send(Maximum 1000): "))
-    if nm > 1000:
+    nm = int(input("Enter Number of Calls To Send(Maximum 100000): "))
+    if nm > 100000:
         print("\t\tYou Have Entered " + str(nm) +
-              ".\n\tNormalizing Value To 1000")
-        nm = 1000
-    dl = float(input("Enter Delay time (in seconds) [Recommended 5 sec ] : "))
+              ".\n\tNormalizing Value To 100000")
+        nm = 100000
+    dl = float(input("Enter Delay time (in seconds) [Recommended 2 sec ] : "))
 elif type == 0:
     if cc == "91":
         nm = int(input("Enter Number of Messages To Send(0 For Unlimited): "))
@@ -850,12 +855,12 @@ elif type == 0:
     else:
         nm = int(input("Enter Number of Messages To Send: "))
         dl = float(
-            input("Enter Delay time (in seconds) [Recommended 10 sec ] : "))
+            input("Enter Delay time (in seconds) [Recommended 2 sec ] : "))
 maxlim = 0
 if cc == "91":
-    maxlim = 50000
+    maxlim = 500000
 else:
-    maxlim = 10000
+    maxlim = 100000
 if nm > maxlim:
     print('\n\n\tSorry Due To Misuse Of This Script We Only Provide ' +
           str(maxlim) + ' SMS At Once...\n\n')
@@ -897,7 +902,7 @@ if cbomb:
 if nm == 0:
     nt = int(input("\tNumber Of Threads(10 to 20) : "))
     if nt <= 0 or nt >= 30:
-        print('\tTBomb Shows Better Result in 10 to 25 Threads\n\t\tStill Continuing....')
+        print('\tshristiBomb Shows Better Result in 10 to 25 Threads\n\t\tStill Continuing....')
     print("\n\nPlease Remember That This Is in Experimental Stage And Is Incredibly Fast...")
     t = [None] * nt
     print(random.choice(colors))
@@ -910,7 +915,7 @@ if nm == 0:
     print("             Delay               : ", dl)
     print("==================================================================")
     print("              Use this for fun, not for revenge !!                ")
-    print("              This Bomber Was Created By SpeedX !!                ")
+    print("              This Bomber Was Created By Sujal for my jaan!!                ")
     print("==================================================================")
     print(W)
     input('\n\nPress CTRL+Z To STOP Bomber... \nPress Enter To Start Bomber...\n')
